@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Aatrox",
+    "level": 3,
+    "attributes": ["blademaster", "demon"]
+  },
+  {
+    "name": "Ahri",
+    "level": 2,
+    "attributes": ["blademaster", "demon"]
+  },
+  {
+    "name": "Akali",
+    "level": 4,
+    "attributes": ["assassin", "ninja"]
+  },
+  {
+    "name": "Anivia",
+    "level": 5,
+    "attributes": ["glacial", "elementalist"]
+  }, 
+  {
+    "name": "Ashe",
+    "level": 3,
+    "attributes": ["ranger", "glacial"]
+  },
+  {
+    "name": "Aurelion Sol",
+    "level": 4,
+    "attributes": ["dragon", "sorcerer"]
+  },
+  {
+    "name": "Blitzcrank",
+    "level": 2,
+    "attributes": ["robot", "brawler"]
+  },  
+  {
+    "name": "Brand",
+    "level": 4,
+    "attributes": ["elementalist", "demon"]
+  },
+  {
+    "name": "Braum",
+    "level": 2,
+    "attributes": ["glacial", "guardian"]
+  },
+  {
+    "name": "Camille",
+    "level": 1,
+    "attributes": ["blademaster", "hextech"]
+  },
+  {
+    "name": "Chogath",
+    "level": 4,
+    "attributes": ["brawler", "void"]
+  },
+  {
+    "name": "Darius",
+    "level": 1,
+    "attributes": ["imperial", "knight"]
+  },
+  {
+    "name": "Draven",
+    "level": 4,
+    "attributes": ["imperial", "blademaster"]
+  },
+  {
+    "name": "Elise",
+    "level": 1,
+    "attributes": ["demon", "shapeshifter"]
+  },
+  {
+    "name": "Evelynn",
+    "level": 3,
+    "attributes": ["demon", "assassin"]
+  },
+  {
+    "name": "Fiora",
+    "level": 1,
+    "attributes": ["blademaster", "nobel"]
+  },
+  {
+    "name": "Gangplank",
+    "level": 3,
+    "attributes": ["blademaster", "pirate", "gunslinger"]
+  },
+  {
+    "name": "Garen",
+    "level": 1,
+    "attributes": ["knight", "nobel"]
+  },
+  {
+    "name": "Gnar",
+    "level": 4,
+    "attributes": ["yordle", "shapeshifter", "wild"]
+  },
+  {
+    "name": "Graves",
+    "level": 1,
+    "attributes": ["pirate", "gunslinger"]
+  },
+  {
+    "name": "Jayce",
+    "level": 2,
+    "attributes": ["hextech", "shapeshifter"]
+  },
+  {
+    "name": "Jinx",
+    "level": 4,
+    "attributes": ["gunslinger", "hextech"]
+  },
+  {
+    "name": "Karthus",
+    "level": 5,
+    "attributes": ["sorcerer", "phantom"]
+  },
+  {
+    "name": "Kassadin",
+    "level": 1,
+    "attributes": ["sorcerer", "void"]
+  },
+  {
+    "name": "Katarina",
+    "level": 3,
+    "attributes": ["assassin", "imperial"]
+  },
+  {
+    "name": "Kayle",
+    "level": 5,
+    "attributes": ["knight", "nobel"]
+  },
+  {
+    "name": "Kennen",
+    "level": 3,
+    "attributes": ["yordle", "ninja", "elementalist"]
+  },
+  {
+    "name": "Khazix",
+    "level": 1,
+    "attributes": ["assassin", "void"]
+  },
+  {
+    "name": "Kindred",
+    "level": 4,
+    "attributes": ["ranger", "phantom"]
+  },
+  {
+    "name": "Leona",
+    "level": 4,
+    "attributes": ["nobel", "guardian"]
+  },
+  {
+    "name": "Lissandra",
+    "level": 2,
+    "attributes": ["glacial", "elementalist"]
+  },
+  {
+    "name": "Lucian",
+    "level": 2,
+    "attributes": ["nobel", "gunslinger"]
+  },
+  {
+    "name": "Lulu",
+    "level": 2,
+    "attributes": ["yordle", "sorcerer"]
+  },
+  {
+    "name": "Miss Fortune",
+    "level": 5,
+    "attributes": ["pirate", "gunslinger"]
+  },
+  {
+    "name": "Mordekaiser",
+    "level": 1,
+    "attributes": ["phantom", "knight"]
+  },
+  {
+    "name": "Morgana",
+    "level": 3,
+    "attributes": ["demon", "sorcerer"]
+  },
+  {
+    "name": "Nidalee",
+    "level": 1,
+    "attributes": ["wild", "shapeshifter"]
+  },
+  {
+    "name": "Pantheon",
+    "level": 5,
+    "attributes": ["dragon", "guardian"]
+  },
+  {
+    "name": "Poppy",
+    "level": 3,
+    "attributes": ["yordle", "knight"]
+  },
+  {
+    "name": "Pyke",
+    "level": 2,
+    "attributes": ["pirate", "assassin"]
+  },
+  {
+    "name": "Reksai",
+    "level": 2,
+    "attributes": ["void", "brawler"]
+  },
+  {
+    "name": "Rengar",
+    "level": 3,
+    "attributes": ["wild", "assassin"]
+  },
+  {
+    "name": "Sejuani",
+    "level": 4,
+    "attributes": ["knight", "glacial"]
+  },
+  {
+    "name": "Shen",
+    "level": 2,
+    "attributes": ["ninja", "blademaster"]
+  },
+  {
+    "name": "Shyvana",
+    "level": 3,
+    "attributes": ["shapeshifter", "dragon"]
+  },
+  {
+    "name": "Swain",
+    "level": 5,
+    "attributes": ["imperial", "shapeshifter", "demon"]
+  },
+  {
+    "name": "Tristana",
+    "level": 1,
+    "attributes": ["gunslinger", "yordle"]
+  },
+  {
+    "name": "Twisted Fate",
+    "level": 2,
+    "attributes": ["pirate", "sorcerer"]
+  },
+  {
+    "name": "Varus",
+    "level": 2,
+    "attributes": ["ranger", "demon"]
+  },
+  {
+    "name": "Vayne",
+    "level": 1,
+    "attributes": ["nobel", "ranger"]
+  },
+  {
+    "name": "Veigar",
+    "level": 3,
+    "attributes": ["yordle", "sorcerer"]
+  },
+  {
+    "name": "Vi",
+    "level": 3,
+    "attributes": ["hextech", "brawler"]
+  },
+  {
+    "name": "Volibear",
+    "level": 3,
+    "attributes": ["brawler", "glacial"]
+  },
+  {
+    "name": "Warwick",
+    "level": 1,
+    "attributes": ["wild", "brawler"]
+  },
+  {
+    "name": "Yasuo",
+    "level": 5,
+    "attributes": ["exile", "blademaster"]
+  },
+  {
+    "name": "Zed",
+    "level": 2,
+    "attributes": ["ninja", "assassin"]
+  }   
+]

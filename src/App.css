@@ -1,33 +1,124 @@
-.App {
-  text-align: center;
+html, body, div, h1, h2, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
+  height: 100%;
+  background-image: url('./icons/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body, #root {
+  margin: 0;
+  height: 100%;
+}
+
+.app-wrapper {
+  max-width: 1000px;
+  min-height: 100%;
+  padding: 00px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+.flex-container {
+  margin: 0 auto;
+  width: 95%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.champion-wrapper {
+  margin: 8px;
+  height: 50px;
+}
+
+.champion-wrapper {
+  cursor: pointer;
+}
+
+.level1 {
+  border: 2px solid rgb(124, 124, 124);
+}
+
+.level1:hover {
+  box-shadow: 0 0 3px 3px rgba(124, 124, 124, 0.5);
+}
+
+.level2 {
+  border: 2px solid rgb(0, 198, 0);
+}
+
+.level2:hover {
+  box-shadow: 0 0 3px 3px rgba(0, 198, 0, 0.5);
+}
+
+.level3 {
+  border: 2px solid rgb(0, 0, 210);
+}
+
+.level3:hover {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 210, 0.5);
+}
+
+.level4 {
+  border: 2px solid rgb(180, 0, 180);
+}
+
+.level4:hover {
+  box-shadow: 0 0 3px 3px rgba(180, 0, 180, 0.5);
+}
+
+.level5 {
+  border: 2px solid rgb(255, 215, 0);
+}
+
+.level5:hover {
+  box-shadow: 0 0 3px 3px rgba(255, 215, 0, 0.5);
+}
+
+.buff-icon-wrapper {
+  height: 50px;
+  margin: 8px;
+  background: black;
+  border: 2px solid black;
+}
+
+h1 {
+  margin: 0px;
+  background: rgba(34, 33, 33,0.8);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5rem;
   color: white;
+  text-align: center;
+  letter-spacing: 2px;  
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  margin: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+  letter-spacing: 2px;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4.4rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;  
 }

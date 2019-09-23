@@ -1,0 +1,194 @@
+[
+  {
+    "name": "blademaster",
+    "steps": [3, 6, 9],
+    "current": 0,
+    "champions": ["Aatrox", "Camille", "Draven", "Fiora", "Gangplank", "Shen", "Yasuo"],
+    "active": [],
+    "show": false
+  },  
+  {
+    "name": "demon",
+    "steps": [2, 4, 6],
+    "current": 0,
+    "champions": ["Aatrox", "Brand", "Elise", "Evelynn", "Morgana", "Swain", "Varus"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "sorcerer",
+    "steps": [3, 6, 9],
+    "current": 0,
+    "champions": ["Ahri", "Aurelion Sol", "Karthus", "Kassadin", "Lulu", "Morgana", "Twisted Fate", "Veigar"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "wild",
+    "steps": [2, 4],
+    "current": 0,
+    "champions": ["Ahri", "Gnar", "Nidalee", "Rengar", "Warwick"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "assassin",
+    "steps": [3, 6, 9],
+    "current": 0,
+    "champions": ["Akali", "Evelynn", "Katarina", "Khazix", "Pyke", "Rengar", "Zed"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "ninja",
+    "steps": [4],
+    "current": 0,
+    "champions": ["Akali", "Kennen", "Shen", "Zed"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "dragon",
+    "steps": [2],
+    "current": 0,
+    "champions": ["Aurelion Sol", "Shyvana", "Pantheon"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "brawler",
+    "steps": [2, 4, 6],
+    "current": 0,
+    "champions": ["Blitzcrank", "Chogath", "Reksai", "Vi", "Volibear", "Warwick"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "elementalist",
+    "steps": [3],
+    "current": 0,
+    "champions": ["Anivia", "Brand", "Kennen", "Lissandra"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "knight",
+    "steps": [2, 4, 6],
+    "current": 0,
+    "champions": ["Darius", "Garen", "Kayle", "Mordekaiser", "Poppy", "Sejuani"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "ranger",
+    "steps": [2, 4],
+    "current": 0,
+    "champions": ["Ashe", "Kindred", "Varus", "Vayne"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "shapeshifter",
+    "steps": [3, 6],
+    "current": 0,
+    "champions": ["Elise", "Gnar", "Jayce", "Nidalee", "Shyvana", "Swain"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "exile",
+    "steps": [1],
+    "current": 0,
+    "champions": ["Yasuo"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "glacial",
+    "steps": [2, 4, 6],
+    "current": 0,
+    "champions": ["Anivia", "Ashe", "Braum", "Lissandra", "Sejuani", "Volibear"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "hextech",
+    "steps": [2, 4],
+    "current": 0,
+    "champions": ["Camille", "Jayce", "Jinx", "Vi"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "imperial",
+    "steps": [2, 4],
+    "current": 0,
+    "champions": ["Darius", "Draven", "Katarina", "Swain"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "nobel",
+    "steps": [3, 6],
+    "current": 0,
+    "champions": ["Fiora", "Garen", "Kayle", "Leona", "Lucian", "Vayne"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "phantom",
+    "steps": [2],
+    "current": 0,
+    "champions": ["Karthus", "Kindred", "Mordekaiser"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "pirate",
+    "steps": [3],
+    "current": 0,
+    "champions": ["Gangplank", "Graves", "Miss Fortune", "Pyke", "Twisted Fate"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "robot",
+    "steps": [1],
+    "current": 0,
+    "champions": ["Blitzcrank"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "void",
+    "steps": [3],
+    "current": 0,
+    "champions": ["Chogath", "Kassadin", "Khazix", "Reksai"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "yordle",
+    "steps": [3, 6],
+    "current": 0,
+    "champions": ["Gnar", "Kennen", "Lulu", "Poppy", "Tristana", "Veigar"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "guardian",
+    "steps": [2],
+    "current": 0,
+    "champions": ["Braum", "Leona", "Pantheon"],
+    "active": [],
+    "show": false
+  },
+  {
+    "name": "gunslinger",
+    "steps": [2, 4, 6],
+    "current": 0,
+    "champions": ["Gangplank", "Graves", "Jinx", "Lucian", "Miss Fortune", "Tristana"],
+    "active": [],
+    "show": false
+  }
+]
