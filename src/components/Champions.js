@@ -22,12 +22,12 @@ export default class Champions extends React.Component {
   }
   render() {
     return (
-      <React.Fragment>
-        <h2> Pick a champion: </h2>
+      <div>
+        <h2 className="component-heading"> Pick a champion: </h2>
         <div className="flex-container champions-wrapper">
           {this.createChampions()}
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

@@ -21,6 +21,7 @@ export default class Buff extends React.Component {
         <img src={"./icons/"+ this.props.buff.name + ".png"} alt={this.props.buff.name} />
       </div>
     );
+    if (this.props.active) return buff;
     for (let i=0; i<champions.length; i++) {
       let champion = championsArray.find((element) => element.name === champions[i]);
       if (!team.find((element) => element.name === champion.name)) {
@@ -30,8 +31,9 @@ export default class Buff extends React.Component {
     return buff;
   }
   render() {
+    let className = (this.props.active) ? "" : "flex-container";
     return (
-      <div className="flex-container">
+      <div className={className}>
         {this.createBuff()}
       </div>
     );

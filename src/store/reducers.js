@@ -1,4 +1,5 @@
 import * as champsData from './data/champions.json';
+import * as buffsData from './data/buffs.json';
 
 let champions = champsData.default;
 
@@ -12,6 +13,8 @@ export const teamReducer = (team = null, action) => {
     case 'REMOVE':
       let newTeam = team.filter(element => element.name !== action.payload);
       return newTeam;
+    case 'RESET':
+      return [];
     default:
       return team;
   }
@@ -41,12 +44,16 @@ export const buffsReducer = (buffs = null, action) => {
             if (element.active.length !== active) {
               element.show = false;
               element.active = active;
-              if (element.active.length < element.steps[element.current] && element.current !== 0) element.current--;
+              if ((element.active.length < element.steps[element.current] 
+                && element.current !== 0)
+                || element.current === element.steps.length) element.current--;
               if (element.active.length + 1 === element.steps[element.current]) element.show = true;
             }
           }
         });
         return newBuffs;
+      case 'RESET':
+        return buffsData.default;
     default: 
       return buffs;
   }

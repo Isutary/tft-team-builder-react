@@ -16,7 +16,10 @@ let reducer = combineReducers({
 });
 
 const copies = (store) => (next) => (action) => {
-  if (!store.getState().team.find((element) => action.payload === element.name) || action.type === "REMOVE") next(action);
+  if ((!store.getState().team.find((element) => action.payload === element.name) 
+    && store.getState().team.length <= 9)
+    || action.type === "REMOVE" 
+    || action.type === "RESET") next(action);
 };
 
 const middleware = applyMiddleware(copies);

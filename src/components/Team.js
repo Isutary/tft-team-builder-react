@@ -22,12 +22,12 @@ export default class Team extends React.Component {
   }
   render() {
     return (
-      <React.Fragment>
-        <h2> Your team: </h2>
+      <div>
+        <h2 className="component-heading"> Your team: </h2>
         <div className="flex-container team-wrapper">
           {this.createTeam()}
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

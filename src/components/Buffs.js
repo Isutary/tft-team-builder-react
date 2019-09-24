@@ -7,7 +7,7 @@ export default class Buffs extends React.Component {
     let buffsArray = [];
     let buffs = store.getState().buffs;
     for (let i=0; i<buffs.length; i++) {
-      if (buffs[i].show) buffsArray.push(<Buff key={i} buff={buffs[i]} />)
+      if (buffs[i].show) buffsArray.push(<Buff key={i} buff={buffs[i]} active={false} />)
     }
     return buffsArray;
   }
@@ -16,12 +16,12 @@ export default class Buffs extends React.Component {
   }  
   render() {
     return (
-      <React.Fragment>
-        <h2> You need: </h2>
-        <div className="">
+      <div>
+        <h2 className="component-heading"> You need: </h2>
+        <div>
           {this.createBuffs()}
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

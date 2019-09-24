@@ -11,3 +11,9 @@ export const remove = (payload) => {
     payload: payload
   }
 }
+
+export const reset = () => {
+  return {
+    type: "RESET"
+  }
+}
