@@ -11,7 +11,6 @@ export default class Active extends React.Component {
         active.push(
           <div key={i}> 
             <Buff buff={buffs[i]} active={true} />
-            <p className="active-count"> {buffs[i].active.length} </p>
           </div>
         );
       }

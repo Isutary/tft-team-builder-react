@@ -16,9 +16,12 @@ export default class Buff extends React.Component {
     let champions = this.props.buff.champions;
     let championsArray = store.getState().champions;
     let team = store.getState().team;
+    let divStyle = {
+      background: "black url('./icons/" + this.props.buff.name + ".png') center",
+    };
     buff.push(
-      <div key={1000} className="buff-icon-wrapper">
-        <img src={"./icons/"+ this.props.buff.name + ".png"} alt={this.props.buff.name} />
+      <div key={1000} className="buff-icon-wrapper" style={divStyle}> 
+        <div className="buff-overlay">{this.props.buff.active.length}</div>
       </div>
     );
     if (this.props.active) return buff;
