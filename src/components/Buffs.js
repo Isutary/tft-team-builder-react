@@ -16,7 +16,7 @@ export default class Buffs extends React.Component {
   }  
   render() {
     return (
-      <div>
+      <div className="component-wrapper">
         <h2 className="component-heading"> You need: </h2>
         <div>
           {this.createBuffs()}

@@ -24,7 +24,7 @@ export default class Champions extends React.Component {
     return (
       <div>
         <h2 className="component-heading"> Pick a champion: </h2>
-        <div className="flex-container champions-wrapper">
+        <div className="flex-container">
           {this.createChampions()}
         </div>
       </div>

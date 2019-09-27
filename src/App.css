@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'harbourbold';
+  src: url('./fonts/harbour-bold-webfont.woff2') format('woff2'),
+       url('./fonts/harbour-bold-webfont.woff') format('woff'),
+       url('./fonts/harbour-bold-webfont.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
 html, body, div, h1, h2, span {
   margin: 0;
   padding: 0;
@@ -12,7 +22,7 @@ html, body, div, h1, h2, span {
 }
 
 html {
-  height: 100%;
+  height: 98%;
   background-image: url('./icons/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,8 +37,8 @@ body, #root {
 .app-wrapper {
   max-width: 1000px;
   min-height: 100%;
-  padding: 00px;
-  background: rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+  background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
   margin: auto;
 }
@@ -41,6 +51,7 @@ body, #root {
 }
 
 .champion-wrapper {
+  position: relative;
   margin: 8px;
   height: 50px;
   cursor: pointer;
@@ -103,33 +114,51 @@ body, #root {
   background: rgba(0,0,0,0.3);
 }
 
-.heading {
+.header-wrapper {
+  margin-top: 10px;
+  background: url('./icons/logo.png') no-repeat;
+  background-position: 20px 10px;
+  background-size: auto 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+}
+
+.logo-wrapper {
   cursor: pointer;
+  height: 100%;
+  flex: 0 1 auto;
+  width: 200px;
+}
+
+.heading-wrapper {
+  flex: auto;
+}
+
+.heading {
   margin: 0px;
-  background: rgba(34, 33, 33,0.8);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 2.5rem;
-  color: white;
+  font-family: 'harbourbold';
+  font-size: 2.6rem;
+  color: #9F6C33;
+  line-height: 100px;
   text-align: center;
   letter-spacing: 2px;  
 }
 
-.component-heading {
+.component-wrapper {
   margin: 20px 0 0;
+}
+
+.component-heading {
+  margin-bottom: 10px;
   padding-left: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2em;
   font-weight: bold;
-  color: rgb(50, 50, 50);
+  color: rgb(20, 20, 20);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(0,0,0,0.6));
-  letter-spacing: 2px;  
-}
-
-.heading span {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 4.4rem;
-  font-weight: bold;
-  text-align: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid black;
   letter-spacing: 2px;  
 }
 
@@ -140,3 +169,24 @@ body, #root {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+.mini-buff-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  top: 30px;
+  left: -4px;
+}
+
+.mini-buff {
+  height: 25px;
+  width: 25px;
+  margin: 0 1px;
+  border-radius: 50%;
+}
+
+.height-fix {
+  height: 107px;
+}
+

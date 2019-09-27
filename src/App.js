@@ -10,7 +10,12 @@ import './App.css';
 export default function App(props) {
   return (
     <div className="app-wrapper">
-      <h1 className="heading" onClick={() => store.dispatch(reset())}> <span>TFT</span>team builder </h1>
+      <header className="header-wrapper">
+        <div onClick={() => store.dispatch(reset())} className="logo-wrapper"></div>
+        <div className="heading-wrapper">
+          <h1 className="heading"> TEAM BUILDER </h1>
+        </div>
+      </header>
       <Champions />
       <Team />
       <Active />

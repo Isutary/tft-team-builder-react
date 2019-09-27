@@ -22,9 +22,9 @@ export default class Team extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="component-wrapper height-fix">
         <h2 className="component-heading"> Your team: </h2>
-        <div className="flex-container team-wrapper">
+        <div className="flex-container">
           {this.createTeam()}
         </div>
       </div>
