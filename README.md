@@ -7,6 +7,6 @@ will appear in 'You have'. You can add champions to 'Your team' directly from 'Y
 You can reset everything by clicking the header 'TFT team builder'.
 
 
-//DISCLAIMER
+//DISCLAIMER  
 I'm sorry for any copyright infringements, I'm new to this and this is being used for educational purposes. If you want 
 anything removed just notify me.
