@@ -16,12 +16,21 @@ export default class Buff extends React.Component {
     let champions = this.props.buff.champions;
     let championsArray = store.getState().champions;
     let team = store.getState().team;
+    let borderColor;
+    let scale = (this.props.active) ? 0:1;
+    if (this.props.buff.current + 2 + scale >= this.props.buff.steps.length) borderColor = 'rgb(205, 127, 50)';
+    if (this.props.buff.current + 1 + scale >= this.props.buff.steps.length) borderColor = 'rgb(192,192,192)';
+    if (this.props.buff.current + scale >= this.props.buff.steps.length) borderColor = 'rgb(255, 215, 0)';    
     let style = {
-      background: "black url('./icons/" + this.props.buff.name + ".png') center",
+      backgroundImage: "url('./icons/" + this.props.buff.name + ".png')",
     };
+    let border = {
+      borderColor: borderColor
+    }
     buff.push(
-      <div key={1000} className="buff-icon-wrapper" style={style}> 
-        <div className="buff-overlay">{this.props.buff.active.length}</div>
+      <div key={1000} className="hexagon" style={{...style, ...border}}>
+        <div className="hexTop" style={border}></div>
+        <div className="hexBottom" style={border}></div>
       </div>
     );
     if (this.props.active) return buff;
@@ -34,7 +43,7 @@ export default class Buff extends React.Component {
     return buff;
   }
   render() {
-    let className = (this.props.active) ? "" : "flex-container";
+    let className = (this.props.active) ? "" : "flex-container buffs-margin";
     return (
       <div className={className}>
         {this.createBuff()}

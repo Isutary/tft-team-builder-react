@@ -22,7 +22,7 @@ export default class Active extends React.Component {
   }
   render() {
     return (
-      <div className="component-wrapper height-fix">
+      <div className="height-fix">
         <h2 className="component-heading"> You have: </h2>
         <div className="flex-container">
           {this.createActive()}
