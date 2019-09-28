@@ -1,6 +1,9 @@
 {
   "name": "test",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.2.0"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
