@@ -21,6 +21,7 @@ html, body, div, h1, h2, span {
 }
 
 html {
+  min-width: 430px;
   height: 98%;
   background-image: url('./icons/background.jpg');
   background-repeat: no-repeat;
@@ -137,6 +138,7 @@ body, #root {
 
 .heading-wrapper {
   flex: auto;
+  align-self: center;
 }
 
 .heading {
@@ -144,7 +146,6 @@ body, #root {
   font-family: 'harbourbold';
   font-size: 2.6rem;
   color: rgb(159, 108, 51);
-  line-height: 100px;
   text-align: center;
   letter-spacing: 2px;  
 }
@@ -260,3 +261,9 @@ body, #root {
   z-index: 2;
   background: inherit;
 } 
+
+@media (max-width: 572px) {
+  .heading {
+    font-size: 2.3em;
+  }
+}

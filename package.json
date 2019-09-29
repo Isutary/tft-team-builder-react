@@ -4,6 +4,7 @@
   "engines": {
     "node": "12.2.0"
   },
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",

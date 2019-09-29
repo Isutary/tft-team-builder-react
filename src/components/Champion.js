@@ -5,12 +5,10 @@ export default class Champion extends React.Component {
     let champion = this.props.champion;
     let src = "./icons/"+ champion.name + "Square.png";
     let attributeOne = {
-      background: "rgba(0,0,0,0.7) url('./icons/" + champion.attributes[0] + ".png') center",
-      backgroundSize: "cover"
+      background: "rgba(0,0,0,0.7) url('./icons/" + champion.attributes[0] + ".png') center / cover"
     }
     let attributeTwo = {
-      background: "rgba(0,0,0,0.7) url('./icons/" + champion.attributes[1] + ".png') center",
-      backgroundSize: "cover"
+      background: "rgba(0,0,0,0.7) url('./icons/" + champion.attributes[1] + ".png') center / cover"
     }
     return (
       <div className={"champion-wrapper level" + champion.level} onClick={() => this.props.onClick(champion.name)}>
