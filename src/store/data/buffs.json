@@ -1,6 +1,8 @@
 [
   {
     "name": "blademaster",
+    "description": "Blademasters' basic attack have 45% chance to trigger additional attacks against their target. These additional attacks deal damage like basic attacks and trigger on-hit effects.",
+    "perks": ["(3) Blademasters: 1 additional attack", "(6) Blademasters: 2 additional attacks", "(9) Blademasters: 4 additional attacks"],
     "steps": [3, 6, 9],
     "current": 0,
     "champions": ["Aatrox", "Camille", "Draven", "Fiora", "Gangplank", "Shen", "Yasuo"],
@@ -9,6 +11,8 @@
   },  
   {
     "name": "demon",
+    "description": "Demon's basic attacks have a 40% chance to reduce target's current mana by 20 and restore mana to the Demon.",
+    "perks": ["(2) Demons: 15 mana", "(4) Demons: 30 mana", "(6) Demons: 45 mana"],
     "steps": [2, 4, 6],
     "current": 0,
     "champions": ["Aatrox", "Brand", "Elise", "Evelynn", "Morgana", "Swain", "Varus"],
@@ -17,6 +21,8 @@
   },
   {
     "name": "sorcerer",
+    "description": "INNATE: Sorcerers' basic attacks grant twice as much mana. All allies gain ability power.",
+    "perks": ["(3) Sorcerers: +40", "(6) Sorcerers: +100", "(9) Sorcerers: +175"],
     "steps": [3, 6, 9],
     "current": 0,
     "champions": ["Ahri", "Aurelion Sol", "Karthus", "Kassadin", "Lulu", "Morgana", "Twisted Fate", "Veigar"],
@@ -25,6 +31,8 @@
   },
   {
     "name": "wild",
+    "description": "Select allies become empowered, causing their basic attacks to generate stacks of Fury, up to 5. Each stack gives 12% attack speed, up to 60% attack speed.",
+    "perks": ["(2) Wild: Allies Only", "(4) Wild: All Allies, and allies' basic attacks cannot be dodged."],
     "steps": [2, 4],
     "current": 0,
     "champions": ["Ahri", "Gnar", "Nidalee", "Rengar", "Warwick"],
@@ -33,6 +41,8 @@
   },
   {
     "name": "assassin",
+    "description": "INNATE: At the start of combat, Assassins stealth and become invulnerable for a short duration and leap to the farthest enemy. Assassins gain bonus critical strike damage and bonus critical strike chance.",
+    "perks": ["(3) Assassins: +75% crit damage and +10% crit chance", "(6) Assassins: +150% crit damage and +20% crit chance", "(9) Assassins: +225% crit damage and +30% crit chance"],
     "steps": [3, 6, 9],
     "current": 0,
     "champions": ["Akali", "Evelynn", "Katarina", "Khazix", "Pyke", "Rengar", "Zed"],
@@ -41,6 +51,8 @@
   },
   {
     "name": "ninja",
+    "description": "Ninjas gain bonus attack damage and Ability power icon ability power.",
+    "perks": ["(1) Ninja: This Ninja gains 50 attack damage and 50 ability power.", "(4) Ninjas: All Ninjas gain 80 attack damage and 80 ability power."],
     "steps": [4],
     "current": 0,
     "champions": ["Akali", "Kennen", "Shen", "Zed"],
@@ -49,6 +61,8 @@
   },
   {
     "name": "dragon",
+    "description": "While at least 2 Dragons are in play, all Dragons gain 75% resistance to magic damage.",
+    "perks": [""],
     "steps": [2],
     "current": 0,
     "champions": ["Aurelion Sol", "Shyvana", "Pantheon"],
@@ -57,6 +71,8 @@
   },
   {
     "name": "brawler",
+    "description": "Brawlers gain additional maximum health.",
+    "perks": ["(2) Brawlers: +250", "(4) Brawlers: +500", "(6) Brawlers: +900"],
     "steps": [2, 4, 6],
     "current": 0,
     "champions": ["Blitzcrank", "Chogath", "Reksai", "Vi", "Volibear", "Warwick"],
@@ -65,6 +81,8 @@
   },
   {
     "name": "elementalist",
+    "description": "INNATE: Elementalists' basic attacks grant twice as much mana. While at least 3 Elementalists are in play, at the start of combat, summons a Golem adjacent to one of your Elementalists, in the closest empty hex to an enemy. This effect will fail if there are no valid spaces. The Golem has 2200 health, 100 attack damage, and 40 armor.",
+    "perks": [""],
     "steps": [3],
     "current": 0,
     "champions": ["Anivia", "Brand", "Kennen", "Lissandra"],
@@ -73,6 +91,8 @@
   },
   {
     "name": "knight",
+    "description": "All allies block a flat amount of damage from all sources.",
+    "perks": ["(2) Knights: 15", "(4) Knights: 35", "(6) Knights: 65"],
     "steps": [2, 4, 6],
     "current": 0,
     "champions": ["Darius", "Garen", "Kayle", "Mordekaiser", "Poppy", "Sejuani"],
@@ -81,6 +101,8 @@
   },
   {
     "name": "ranger",
+    "description": "Every 3 seconds, Rangers have a chance to gain double attack speed for 3 seconds.",
+    "perks": ["(2) Rangers: 25%", "(4) Rangers: 70%"],
     "steps": [2, 4],
     "current": 0,
     "champions": ["Ashe", "Kindred", "Varus", "Vayne"],
@@ -89,6 +111,8 @@
   },
   {
     "name": "shapeshifter",
+    "description": "When Shapeshifters activate their Special Ability for the first time, they gain additional maximum health and heal for the amount gained.",
+    "perks": ["(3) Shapeshifters: +60% of maximum health", "(6) Shapeshifters: +100% of maximum health"],
     "steps": [3, 6],
     "current": 0,
     "champions": ["Elise", "Gnar", "Jayce", "Nidalee", "Shyvana", "Swain"],
@@ -97,6 +121,8 @@
   },
   {
     "name": "exile",
+    "description": "Exiles start combat with a shield equal to 100% of maximum health when not placed adjacent to an ally. The shield does not scale with Ability power icon ability power.",
+    "perks": [""],
     "steps": [1],
     "current": 0,
     "champions": ["Yasuo"],
@@ -105,6 +131,8 @@
   },
   {
     "name": "glacial",
+    "description": "Glacials' basic attacks have a chance to Stun icon stun their target for 1.5 seconds.",
+    "perks": ["(2) Glacials: 20%", "(4) Glacials: 33%", "(6) Glacials: 50%"],
     "steps": [2, 4, 6],
     "current": 0,
     "champions": ["Anivia", "Ashe", "Braum", "Lissandra", "Sejuani", "Volibear"],
@@ -113,6 +141,8 @@
   },
   {
     "name": "hextech",
+    "description": "At the start of combat, an ally Hextech launches and detonates a pulse bomb at an enemy unit with at least one item, temporarily disabling nearby enemy items for 7 seconds.",
+    "perks": ["(2) Hextech: within a 1 hex radius", "(4) Hextech: within a 2 hex radius"],
     "steps": [2, 4],
     "current": 0,
     "champions": ["Camille", "Jayce", "Jinx", "Vi"],
@@ -121,6 +151,8 @@
   },
   {
     "name": "imperial",
+    "description": "At the start of combat, select Imperials are empowered to deal double damage. This does not affect items.",
+    "perks": ["(2) Imperials: One random Imperial", "(4) Imperials: All Imperials"],
     "steps": [2, 4],
     "current": 0,
     "champions": ["Darius", "Draven", "Katarina", "Swain"],
@@ -129,6 +161,8 @@
   },
   {
     "name": "nobel",
+    "description": "At the start of combat, select allies gain 50 armor and 50 magic resistance and basic attacks restore 30 health on-hit.",
+    "perks": ["(3) Nobles: A random ally.", "(6) Nobles: The whole team."],
     "steps": [3, 6],
     "current": 0,
     "champions": ["Fiora", "Garen", "Kayle", "Leona", "Lucian", "Vayne"],
@@ -137,6 +171,8 @@
   },
   {
     "name": "phantom",
+    "description": "While at least 2 Phantoms are in play, at the start of combat, a random enemy's health is set to 100. Works against epic monsters, but deals less damage.",
+    "perks": [""],
     "steps": [2],
     "current": 0,
     "champions": ["Karthus", "Kindred", "Mordekaiser"],
@@ -145,6 +181,8 @@
   },
   {
     "name": "pirate",
+    "description": "While at least 3 Pirates are in play, at the end of each round against another player, spawns a chest that grants between Gold 0 and 4, with an average value of Gold 1.75 per chest.",
+    "perks": [""],
     "steps": [3],
     "current": 0,
     "champions": ["Gangplank", "Graves", "Miss Fortune", "Pyke", "Twisted Fate"],
@@ -153,6 +191,8 @@
   },
   {
     "name": "robot",
+    "description": "Robots begin combat with full mana.",
+    "perks": [""],
     "steps": [1],
     "current": 0,
     "champions": ["Blitzcrank"],
@@ -161,6 +201,8 @@
   },
   {
     "name": "void",
+    "description": "Basic attacks and Special Abilities from select Void units deal true damage.",
+    "perks": ["(2) Void units: A random void ally.", "(4) Void units: All Void units."],
     "steps": [3],
     "current": 0,
     "champions": ["Chogath", "Kassadin", "Khazix", "Reksai"],
@@ -169,6 +211,8 @@
   },
   {
     "name": "yordle",
+    "description": "Yordles have a chance to dodge enemy basic attacks and on-hit effects.",
+    "perks": ["(3) Yordles: 30%", "(6) Yordles: 60%", "(9) Yordles: 90%"],
     "steps": [3, 6],
     "current": 0,
     "champions": ["Gnar", "Kennen", "Lulu", "Poppy", "Tristana", "Veigar"],
@@ -177,6 +221,8 @@
   },
   {
     "name": "guardian",
+    "description": "While at least 2 Guardians are in play, at the start of combat, Guardians grant 35 armor to adjacent allies for the rest of the combat. This effect can stack any number of times for each adjacent Guardian. Guardians do not buff themselves, but can buff other Guardians.",
+    "perks": [""],
     "steps": [2],
     "current": 0,
     "champions": ["Braum", "Leona", "Pantheon"],
@@ -185,6 +231,8 @@
   },
   {
     "name": "gunslinger",
+    "description": "Gunslingers' basic attacks have a 50% chance to fire additional bullets at other enemies within range. These bullets deal damage like basic attacks and apply on-hit effects.",
+    "perks": ["(2) Gunslingers: 1 additional random enemy", "(4) Gunslingers: 2 additional random enemy", "(6) Gunslingers: 3 additional random enemy"],
     "steps": [2, 4, 6],
     "current": 0,
     "champions": ["Gangplank", "Graves", "Jinx", "Lucian", "Miss Fortune", "Tristana"],
